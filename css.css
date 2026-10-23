@@ -1,0 +1,22 @@
+* {
+    color:blue;
+}
+
+img {
+    width: 30px;
+
+}
+
+h1{
+    text-align: center;
+}
+.middle {
+    vertical-align: middle;
+}
+.selector-table {
+    border: 1px solid red;
+}
+
+.selector-table th, .selector-table td {
+    border: 1px solid red;
+}
