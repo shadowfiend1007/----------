@@ -1,30 +1,42 @@
 .container {
-    border: 2px solid red;
-    display: flex;
-
+    border: 2px solid salmon;
+    display: flex; /* режим флекс-контейнера */
+}
+.h-150 {
+    height: 150px;
 }
 .item {
-    background-color: aquamarine;
-    border: 2px solid antiquewhite;
+    background-color: tomato;
+    border: 2px solid maroon;
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     width: 100px;
-    
 }
 .j-center {
-    justify-content: center; 
+    justify-content: center; /* вирівнювання вздовж головної осі */
 }
 .j-between {
-    justify-content: space-between;
+    justify-content: space-between; /*  */
 }
 .j-evenly {
-    justify-content: space-evenly;
+    justify-content: space-evenly; /*  */
 }
 .j-around {
-    justify-content: space-around;
+    justify-content: space-around; /*  */
 }
 .a-center {
-    align-items: center;
+    align-items: center; /* вирівнювання поперек головної осі */
+}
+.a-center {
+    align-items: stretch; /* вирівнювання поперек головної осі */
+}
+.flex-1 {
+    background-color: greenyellow;
+    flex: 1;
+}
+.flex-2 {
+    background-color:rebeccapurple;
+    flex: 2;
 }
