@@ -1,13 +1,13 @@
 .card {
     border-radius: 10px;
-    box-shadow: 0 3px 3px 2px #bbb;
+    box-shadow: 0 3px 3px 2px black;
     display: flex;
     flex-direction: column;
     height: 350px;
     width: 250px;
 }
 .card-image {
-    background-color: chocolate;
+    background-color: black;
     /*             LT   RT  RB  LB    */
     border-radius: 10px 10px 0px 0;
     height: 40%;
@@ -43,4 +43,30 @@
 }
 .card-button:focus {
     border: 2px solid #aaa;
+    flex-direction: column;
 }
+.card-price-discount{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+}
+.card-price-old{
+    text-decoration: line-through;
+    font-size: 13px;
+    color: gray
+}
+.card-price-actual{
+    font-size:24px;
+    color:red;
+    font-weight:700;
+}
+.card-discount-percent{
+    background-color: red;
+    border-radius: 1em;
+    color: snow;
+    font-weight: 600;
+    padding: 1px 3px;
+}
+
+
+
